@@ -1,37 +1,55 @@
-## Welcome to GitHub Pages
+# Machine Learning Examples Repository
 
-You can use the [editor on GitHub](https://github.com/christophergaughan/ChristopherGaughan.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+This repository contains various **Machine Learning** examples and implementations, covering topics such as supervised learning, feature engineering, deep learning, and computer vision. These notebooks serve as educational resources, ensuring no private or proprietary information from consulting engagements is included.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Overview
 
-### Markdown
+This repository includes the following key projects:
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### **Supervised Learning & Feature Engineering**
+- **Supervised Learning with Python** (`Supervised_Learning_with_Python_CH2.ipynb`)  
+  - Covers fundamental supervised learning concepts with practical examples.
+- **Feature Engineering Techniques**
+  - `Feature_Scaling.ipynb`: Demonstrates various feature scaling methods.
+  - `Feature_Dicretization.ipynb`: Explores discretization techniques for numeric features.
+  - `02_3_Date_Time_Variables.ipynb`: Working with date/time features in machine learning.
 
-```markdown
-Syntax highlighted code block
+### **Regression & Classification**
+- **Regression Models**
+  - `Bull_Dozer_Price_Regression_Kaggle_Competition.ipynb`: A Kaggle-based regression example.
+  - `cars_regression_overfit_example.ipynb`: Demonstrates overfitting in regression tasks.
+- **Classification Models**
+  - `PyTorch_Classification.ipynb`: Classification using PyTorch.
+  - `Heart-Disease-ML-Classification-Project.ipynb`: Predicting heart disease using ML.
 
-# Header 1
-## Header 2
-### Header 3
+### **Deep Learning & Computer Vision**
+- **Computer Vision with CNNs**  
+  - `14_deep_computer_vision_with_cnns.ipynb`: Explores convolutional neural networks (CNNs).
+  - `Kaggle_dog_breed_identification.ipynb`: Dog breed classification using deep learning.
+- **Introduction to PyTorch**
+  - `PyTorch_Tensor_Intro.ipynb`: Introduction to PyTorch tensor operations.
+  - `PyTorch_Workflow.ipynb`: End-to-end workflow in PyTorch.
 
-- Bulleted
-- List
+### **NLP & Transformer Models**
+- **Natural Language Processing (NLP)**
+  - `NB_7_GDC_API_BERT.ipynb`: Using BERT for NLP tasks.
 
-1. Numbered
-2. List
+### **Educational Purpose**
+- All notebooks are **generalized and anonymized**, ensuring that no proprietary or private information is disclosed.
+- The goal is to provide a structured learning resource for machine learning concepts.
 
-**Bold** and _Italic_ and `Code` text
+## Requirements
 
-[Link](url) and ![Image](src)
-```
+- Python 3.11
+- Jupyter Notebook
+- PyTorch 2.5.1+cu121 (for deep learning examples)
+- Scikit-Learn
+- Matplotlib
+- NumPy
+- Pandas
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+Install dependencies using:
 
-### Jekyll Themes
+```bash
+pip install torch scikit-learn matplotlib numpy pandas
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/christophergaughan/ChristopherGaughan.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
